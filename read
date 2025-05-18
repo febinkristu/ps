@@ -290,4 +290,21 @@ Important Notes: Treat your personal access token like a password. Keep it secur
 
 If you need to use the token in a command-line operation (e.g., for Git operations), include it in the URL as a password. For example: git clonehttps://<your-username>:<your- token>@github.com/<your-username>/<repository>.git
 Replace <your-username> with your GitHub username and <your-token> with the token you generated.
+Clone - Clone a repository into a new directory
+
+
+Init - Create an empty Git repository or reinitialize an existing one Add - Add file contents to the index
+Mv - Move or rename a file, a directory, or a symlink Restore - Restore working tree and from the index
+Bisect - Use binary search to find the commit that introduced a bug Diff - Show changes between commits, commit and working tree,etc Grep - Print lines matching a pattern
+Log - Show content logs
+
+
+Show - Show various types of objects Status - Show the working tree status Branch - List, create or delete branches Commit - Record changes to the repository
+Merge - Join two or more development histories together Rebase - Reapply commits on top of another base tip Switch - Switch branches
+ 
+
+
+
+Tag - Create, list, delete or verify a tag object signed with GPG Fetch - Download objects and refs from another repository
+Pull - Fetch from and integrate with another repository or a local branch Push - Update remote refs along with associated objects
 
